@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AGRO">
+        <activity
+            android:name=".Calculator2"
+            android:exported="false" />
+        <activity
+            android:name=".Pest10"
+            android:exported="false" />
+        <activity
+            android:name=".Pest9"
+            android:exported="false" />
+        <activity
+            android:name=".Pest8"
+            android:exported="false" />
+        <activity
+            android:name=".Pest7"
+            android:exported="false" />
+        <activity
+            android:name=".Pest6"
+            android:exported="false" />
+        <activity
+            android:name=".Pest5"
+            android:exported="false" />
+        <activity
+            android:name=".Pest4"
+            android:exported="false" />
+        <activity
+            android:name=".Pest3"
+            android:exported="false" />
+        <activity
+            android:name=".Pest2"
+            android:exported="false" />
+        <activity
+            android:name=".Culv"
+            android:exported="false" />
+        <activity
+            android:name=".Cul9"
+            android:exported="false" />
+        <activity
+            android:name=".Cul8"
+            android:exported="false" />
+        <activity
+            android:name=".Cul7"
+            android:exported="false" />
+        <activity
+            android:name=".Cul6"
+            android:exported="false" />
+        <activity
+            android:name=".Cul5"
+            android:exported="false" />
+        <activity
+            android:name=".Cul4"
+            android:exported="false" />
+        <activity
+            android:name=".Cul3"
+            android:exported="false" />
+        <activity
+            android:name=".Cul2"
+            android:exported="false" />
+        <activity
+            android:name=".Apple"
+            android:exported="false" />
+        <activity
+            android:name=".Mango"
+            android:exported="false" />
+        <activity
+            android:name=".Been"
+            android:exported="false" />
+        <activity
+            android:name=".Chilli"
+            android:exported="false" />
+        <activity
+            android:name=".Onion"
+            android:exported="false" />
+        <activity
+            android:name=".Potato"
+            android:exported="false" />
+        <activity
+            android:name=".Brinjal"
+            android:exported="false" />
+        <activity
+            android:name=".Corn"
+            android:exported="false" />
+        <activity
+            android:name=".Wheat"
+            android:exported="false" />
+        <activity
+            android:name=".Irrigation1"
+            android:exported="false" />
+        <activity
+            android:name=".Fild1"
+            android:exported="false" />
+        <activity
+            android:name=".Site1"
+            android:exported="false" />
+        <activity
+            android:name=".Monitoring1"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator1"
+            android:exported="false" />
+        <activity
+            android:name=".Planting1"
+            android:exported="false" />
+        <activity
+            android:name=".Plantselection1"
+            android:exported="false" />
+        <activity
+            android:name=".Grasshopper"
+            android:exported="false" />
+        <activity
+            android:name=".RicecauseWorm"
+            android:exported="false" />
+        <activity
+            android:name=".pest1"
+            android:exported="false" />
+        <activity
+            android:name=".Cul1"
+            android:exported="false" />
+        <activity
+            android:name=".Rice"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".startup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+    </application>
+
+</manifest>

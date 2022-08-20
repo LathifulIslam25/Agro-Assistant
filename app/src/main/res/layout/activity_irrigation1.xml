@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".Irrigation1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1200dp">
+
+
+            <TextView
+                android:id="@+id/irrigation"
+                android:layout_width="362dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/blue1"
+                android:text="Irrigation"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="360dp"
+                android:layout_height="236dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="@+id/irrigation"
+                app:layout_constraintTop_toBottomOf="@+id/irrigation"
+                app:srcCompat="@drawable/plnting2" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="5dp"
+                android:text="WEEK 1:\nIrrigation during the critical stage:\nAfter transplanting, water levels should be around 3 cm initially, and gradually increase to 5-10 cm as the crop grows. The water level should remain there until the field is drained 7-10 days before harvest. It is particularly important to ensure that continuous flooding is provided during these critical stages:\n• Panicle initiation\n• Booting\n• Heading\n• Flowering."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView18"
+                app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="352dp"
+                android:layout_height="234dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView69"
+                app:layout_constraintTop_toBottomOf="@+id/textView69"
+                app:srcCompat="@drawable/plnting4" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="350dp"
+                android:layout_height="291dp"
+                android:layout_marginTop="8dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="WEEK 11:\nManage your water wisely:\nFor a crop to continue to grow, the water supply needs to be similar or a little above evaporation. To maximize water use efficiency:\n• Maintain the bunds.\n• Level the fields.\n• Puddle the fields, where possible.\n• Use short-duration crops.\n• Maintain optimum water during the crop's critical stages.\n• Harvest on time."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView19"
+                app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

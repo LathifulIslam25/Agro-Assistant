@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Site1">
+
+
+
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="362dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue1"
+        android:text="Site Selection"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="315dp"
+        android:layout_height="26dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="4 weeks before seedling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/site"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="360dp"
+        android:layout_height="249dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/site" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="362dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:text="Install your rice nursery in an accessible and sunny place close to the rice fields and water source, and sheltered from animals and birds. Do not install your nursery in the shade of trees, as this will weaken the seedlings."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

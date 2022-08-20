@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AGRO</string>
+    <string name="title_activity_vhat">vhat</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--    new-->
+
+    <string name="amt_N_in">Enter N amount:</string>
+    <string name="total_amt_text">Enter your total area:</string>
+
+    <string-array name="area">
+        <item>1000 ft^2</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="totalsize">
+        <item>ft^2</item>
+        <item>Acre(s)</item>
+    </string-array>
+    <string name="Values">
+        "Please enter your fertilizer values"
+    </string>
+    <string name="rate">
+        Input your application rate:
+    </string>
+    <string name="rate2">
+        lbs per
+    </string>
+    <string name="totalArea">
+        Input your total area:
+    </string>
+    <string name="calc_N">
+        Calc N
+    </string>
+    <string name="calc_P">
+        Calc P
+    </string>
+    <string name="calc_K">
+        calc K
+    </string>
+    <string name="title">
+        Fertilizer Calculator
+    </string>
+</resources>

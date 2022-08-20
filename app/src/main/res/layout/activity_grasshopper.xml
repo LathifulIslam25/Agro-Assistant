@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".Grasshopper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1650dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1650dp">
+
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="353dp"
+                android:layout_height="41dp"
+                android:text="Short horned Grasshopper and Locust"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.224"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.025" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="140dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                tools:text="Insect"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintStart_toStartOf="@+id/textView55"
+                app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="367dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView56"
+                app:layout_constraintTop_toBottomOf="@+id/textView56"
+                app:srcCompat="@drawable/shorthorned" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="143dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="12dp"
+                android:text="symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="360dp"
+                android:layout_height="344dp"
+                android:layout_marginTop="8dp"
+                android:text="• Shiny greenish color and 5 mm to 11 cm long.\n• Feeding marks(cut out) leaves,shoots,and panicles.\n• Adults swarm and migrate.\nSymptoms differ depending on the plant type and the hunger of the grasshopper. Grasshopper and locust feed primarily on leaves damaging the margins or cutting out large portions of the leaf. Grains, seed pods and fruits may also be attacked by the insect. When they are very hungry they might even feed on stems and bark. They also nibble at the shoots, hence severing the reproductive parts."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView57"
+                app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="200dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="8dp"
+                android:text="Preventive Measures"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView58"
+                app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="361dp"
+                android:layout_height="523dp"
+                android:layout_marginTop="8dp"
+                android:text="• At planting, monitor your plants and destroy egg pods and nymphs.\n• Monitor the field regularly for characteristic signs of the damage and the presence of grasshopper nymphs or adults.\n• Pick adults directly from the foliage at night when they are sluggish.\n• In case of affected rice fields flood the seedbed to drown the insect.\n• Sweep small seedbeds with a net to catch the insect.\n• Remove weeds which might serve as alternative hosts\n• Avoid frequent pesticide spray that could affect populations of beneficial insects.\n• Deep ploughing after harvest is recommended in winter season to expose the egg masses to predators.\n• Deep ploughing after harvest is recommended in winter season to expose the egg masses to predators.\n• Trenches of 45 cm deep and 30 cm wide may be dug across the front of marching hoppers and trenches should be provided with metal sheet barriers."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView62"
+                app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="200dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="8dp"
+                android:text="What caused it?"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView63"
+                app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="365dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="The characteristic symptoms on leafs and panicles are caused by the nymphs and adults. Aquatic environments are suitable for their development (e.g. rice fields, floodplains, deltas). The grasshoppers range in sizes from 5 mm to 11 cm in length, and they could either be long and slender or short and stout. They can blend easily into their surroundings as they are either green or straw colored. Females lay yellow eggs on the foliage. The adults can develop wings, swarm and migrate."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView64"
+                app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

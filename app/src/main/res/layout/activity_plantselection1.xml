@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".Plantselection1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp">
+
+
+            <TextView
+                android:id="@+id/plantselection"
+                android:layout_width="362dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/blue1"
+                android:text="Plant Selection"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/week1"
+                android:layout_width="309dp"
+                android:layout_height="27dp"
+                android:text="5 weeks before seedling."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.235"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <ImageView
+                android:id="@+id/plantimage"
+                android:layout_width="362dp"
+                android:layout_height="191dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/week1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.114"
+                app:srcCompat="@drawable/plnselect" />
+
+            <TextView
+                android:id="@+id/chosevarity1"
+                android:layout_width="304dp"
+                android:layout_height="30dp"
+                android:text="Choose a variety that fits your needs"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/plantimage"
+                app:layout_constraintTop_toBottomOf="@+id/plantimage"
+                app:layout_constraintVertical_bias="0.012" />
+
+            <TextView
+                android:id="@+id/duration1"
+                android:layout_width="362dp"
+                android:layout_height="481dp"
+                android:layout_marginTop="48dp"
+                android:text="Crop duration:\n• Long-duration varieties (160 days and longer) are suitable for irrigated areas.\n• Medium-duration varieties (120-140 days) are suitable for both rainfed and irrigated areas.\n• Short-duration varieties (less than 120 days) are suitable for drought-prone areas or for double cropping.\nCrop height:\n• Tall varieties (1,4 m and taller) are suitable for flood-prone and unleveled fields, but lodging may be a problem.\n• Medium-height varieties (1-1.2 m) are suitable for most areas and are less. susceptible to lodging when fertilizer is used.\n• Short varieties are best suited for level fields, especially in irrigated areas. They are normally less than 1 m in height.\nGrain quality:\n• • A premium is often paid for aromatic varieties, but yields are normally lower.\n• Eating qualities such as softness, stickiness, and color after cooking are important."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chosevarity1"
+                app:layout_constraintTop_toBottomOf="@+id/plantimage" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

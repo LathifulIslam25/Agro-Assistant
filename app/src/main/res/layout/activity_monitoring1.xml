@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".Monitoring1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+
+
+            <TextView
+                android:id="@+id/monitoring"
+                android:layout_width="362dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/blue1"
+                android:text="Monitoring"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="362dp"
+                android:layout_height="228dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/monitoring"
+                app:layout_constraintVertical_bias="0.028"
+                app:srcCompat="@drawable/fildfri" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="312dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:text="Monitor Field Frequently"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="373dp"
+                android:layout_height="348dp"
+                android:layout_marginTop="8dp"
+                android:text="Monitor the growth of: your crop often. Walk through your field in a random manner or zigzag and check for signs of diseases, pests, or deficiencies. Deficiencies are characterized by the discoloration of leaves and the poor vigor of the plants. Diseases are often visible as discoloration and spots or streaks on leaves. Finally, remember that most of the insects present in the field are beneficial for your crop. Those that attack your crop will leave behind damage on leaves and buds in the form of holes. Make sure to talk to your neighbors and exchange information about current diseases with your local community. Also, seek support with public extension services in your area."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

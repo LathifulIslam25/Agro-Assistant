@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planting1"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2200dp"
+        android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="2200dp">
+
+
+        <TextView
+            android:id="@+id/planting"
+            android:layout_width="362dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/blue1"
+            android:text="Planting"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/week2"
+            android:layout_width="309dp"
+            android:layout_height="27dp"
+            android:text="3 weeks before seedling."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <ImageView
+            android:id="@+id/plantimage"
+            android:layout_width="362dp"
+            android:layout_height="191dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/week2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.049"
+            app:srcCompat="@drawable/plnting" />
+
+        <TextView
+            android:id="@+id/chosevarity2"
+            android:layout_width="304dp"
+            android:layout_height="30dp"
+            android:text="Sowing in the nursery"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/plantimage"
+            app:layout_constraintTop_toBottomOf="@+id/plantimage"
+            app:layout_constraintVertical_bias="0.005" />
+
+        <TextView
+            android:id="@+id/duration2"
+            android:layout_width="351dp"
+            android:layout_height="302dp"
+            android:layout_marginTop="48dp"
+            android:text="The quantity of seeds to sow will depend on the variety. For 1 acre of transplanted rice, you will need to sow in your nursery:\n• 12 kg for long-duration varieties.\n• 16 kg for medium-duration varieties.\n• 25 kg for short-duration varieties. .4 kg for hybrids.\nuse fartilizer 2kg(2kg solid) or 5kg(soluble)per 1000sqft.\n Tips:\n• Sow your seeds in a wet-bed nursery if you live in an area with a sufficient water supply.\n• Irrigate the nursery bed when water is required.\n• Keep the water level between 2 and 5 cm"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/chosevarity2"
+            app:layout_constraintTop_toBottomOf="@+id/plantimage" />
+
+        <TextView
+            android:id="@+id/seed"
+            android:layout_width="279dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="352dp"
+            android:text="Time to transplant your seedling"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/duration2"
+            app:layout_constraintTop_toBottomOf="@+id/plantimage" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="360dp"
+            android:layout_height="209dp"
+            android:layout_marginTop="390dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/seed"
+            app:layout_constraintTop_toBottomOf="@+id/plantimage"
+            app:srcCompat="@drawable/plnting1" />
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="363dp"
+            android:layout_height="282dp"
+            android:layout_marginTop="8dp"
+            android:text="STEP 1\n 1)Pull out the seedlings at an average of 20 to 30 days after seeding (DAS) from nurseries and transport them to the main field. Traditional varieties can often be transplanted later than modern varieties with little effect on yield. Transplant the seedlings soon after pulling from the nursery in a puddled and levelled field (any delay will lead to slow revival or even death of some seedlings). The pulled-out seedlings should be stored in water. Ideally, transplant within 30 minutes of pulling out of seedlings. For 0.4ha around 8-12 labourers will be needed."
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/plnting2"
+            android:layout_width="362dp"
+            android:layout_height="233dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/step1"
+            app:layout_constraintTop_toBottomOf="@+id/step1"
+            app:srcCompat="@drawable/plnting2" />
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="345dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="STEP2:\n 2)Maintain the water level at 3-10 cm."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/plnting2"
+            app:layout_constraintTop_toBottomOf="@+id/plnting2" />
+
+        <ImageView
+            android:id="@+id/plhting3"
+            android:layout_width="351dp"
+            android:layout_height="218dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/step2"
+            app:layout_constraintTop_toBottomOf="@+id/step2"
+            app:srcCompat="@drawable/plnting3" />
+
+        <TextView
+            android:id="@+id/step3"
+            android:layout_width="336dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="12dp"
+            android:text="STEP3:\n 3)Transplant 2-3 seedling per hill at shallow depth at optimum spacing (20 cm x 20 cm or 22.5 cm x 22.5 cm). Handle seedling carefully to ensure their fast revival and rapid growth after transplanting."
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/plhting3"
+            app:layout_constraintTop_toBottomOf="@+id/plhting3" />
+
+        <ImageView
+            android:id="@+id/step4"
+            android:layout_width="352dp"
+            android:layout_height="224dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/step3"
+            app:layout_constraintTop_toBottomOf="@+id/step3"
+            app:srcCompat="@drawable/plnting4" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="347dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="STEP4:\n 4)A good crop stand should be in the order of 100-200 per m2."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/step4"
+            app:layout_constraintTop_toBottomOf="@+id/step4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

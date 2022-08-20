@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".Homepage">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/gray">
+
+            <TextView
+                android:layout_width="149dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Agro Assistant"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_alignParentRight="true"
+                android:elevation="10dp"
+                android:src="@drawable/ieeeeeeeeeee" />
+
+        </RelativeLayout>
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.266">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+
+                android:layout_marginLeft="23dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="0"
+                app:layout_row="0"
+
+                >
+
+                <ImageView
+                    android:id="@+id/rice"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/rr"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Rice"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="1"
+                app:layout_row="0" >
+
+                <ImageView
+                    android:id="@+id/Wheat"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/gom"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Wheat"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginLeft="23dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="0"
+                app:layout_row="1" >
+
+                <ImageView
+                    android:id="@+id/corn"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/vutta"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Corn"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="1"
+                app:layout_row="1" >
+
+                <ImageView
+                    android:id="@+id/brinjal"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/bagun"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Brinjal"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="23dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="0"
+                app:layout_row="2" >
+
+                <ImageView
+                    android:id="@+id/potato"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/alu"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Potato"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="1"
+                app:layout_row="2">
+
+
+                <ImageView
+                    android:id="@+id/nion"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/piag"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Onion"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="23dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="0"
+                app:layout_row="3" >
+
+                <ImageView
+                    android:id="@+id/Chilipaper"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/morich"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Chili Paper"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="1"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/Ben"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/botboti"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Been"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="23dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="0"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/mango"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/amm"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Mango"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="20dp"
+                app:layout_column="1"
+                app:layout_row="4" >
+
+                <ImageView
+                    android:id="@+id/apple"
+                    android:layout_width="86dp"
+                    android:layout_height="104dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:src="@drawable/apple"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:text="Apple"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

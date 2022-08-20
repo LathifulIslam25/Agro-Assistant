@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planting1"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2750dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="2750dp">
+
+
+            <TextView
+                android:id="@+id/fld"
+                android:layout_width="362dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/blue1"
+                android:text="Field preparation"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="291dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Prepare a wet-bed nursery"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/fld"
+                app:layout_constraintTop_toBottomOf="@+id/fld" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="243dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="5dp"
+                android:text="In a Nutshell"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="358dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="5dp"
+                android:text="Select and prepare a nursery site that is 1/10 the size of the intended planting area. By preparing your nursery with care, you can set a good foundation for the start of your rice production"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView48"
+                app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="344dp"
+                android:layout_height="214dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView49"
+                app:layout_constraintTop_toBottomOf="@+id/textView49"
+                app:srcCompat="@drawable/p1" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="349dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="5dp"
+                android:text="STEP 1:\nPlow the nursery side once. Plow with minimum 7 cm depth and maximum 10 cm depth."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="347dp"
+                android:layout_height="183dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView50"
+                app:layout_constraintTop_toBottomOf="@+id/textView50"
+                app:srcCompat="@drawable/p2" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="340dp"
+                android:layout_height="276dp"
+                android:layout_marginTop="5dp"
+                android:text="STEP 2:\nThe nursery should be prepared with soils enriched with decomposed farmyard manure (FYM) or compost. You could also apply chemical fertilizers. It is important to apply some kind of fertilizer before plowing (see below). Evenly spread the fertilizer prior to final plowing for seeding. Incorporate the fertilizer evenly into the soil, ensuring all the fertilizer is buried at least 2 cm below the surface. The right amount of fertilizer is indicated below. For Nitrogen fertilization, urea or neem coated urea can be used."
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="340dp"
+                android:layout_height="225dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView59"
+                app:layout_constraintTop_toBottomOf="@+id/textView59"
+                app:srcCompat="@drawable/p1" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="336dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="5dp"
+                android:text="STEP 3:\nPlow the nursery a second time"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="342dp"
+                android:layout_height="236dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView60"
+                app:srcCompat="@drawable/p4" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="336dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="STEP 4:\nHarrow at least once in order to reduce clod sizes and take away stones from the surface"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView14"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="342dp"
+                android:layout_height="241dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView61"
+                app:layout_constraintTop_toBottomOf="@+id/textView61"
+                app:srcCompat="@drawable/p5" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="334dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:text="STEP 5:\nLevel the soil surface and put in drainage lines across the field."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView15"
+                app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView66"
+                app:layout_constraintTop_toBottomOf="@+id/textView66"
+                app:srcCompat="@drawable/p6" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="334dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:text="STEP 6:\nPrecise leveling is crucial for proper plant stand."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView16"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="354dp"
+                android:layout_height="236dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="88dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView67"
+                app:layout_constraintTop_toBottomOf="@+id/textView67"
+                app:srcCompat="@drawable/p7" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="336dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:text="STEP 7:\nPrepare beds at 1 m wide by convenient length. Raise the soil to 5-10 cm height. Broadcast pre-germinated seeds in thoroughly puddled and levelled soil"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

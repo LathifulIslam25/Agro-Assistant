@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    tools:context=".RicecauseWorm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1350dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="1350dp">
+
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="257dp"
+                android:layout_height="37dp"
+                android:text="Rice Case Worm"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.092"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.019" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="140dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/blue1"
+                android:textSize="18sp"
+                tools:text="Insect"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintStart_toStartOf="@+id/textView43"
+                app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="367dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView44"
+                app:layout_constraintTop_toBottomOf="@+id/textView44"
+                app:srcCompat="@drawable/worm" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="143dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="12dp"
+                android:text="symptoms"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView4"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="367dp"
+                android:layout_height="367dp"
+                android:layout_marginTop="8dp"
+                android:text="• Leaves cut at right angles.\n• Ladder-like structure.\n• Larvae is green with yellow head.\n• Adults are white moths.\nThe young P,stagnalis larva causes linear grazing of leaves, Rice case worms cut off rice leaves tips at right angles to make leaf cases. Caseworm damage is characterized by leaves cut at right angles as with a pair of scissors and leaf cases floating on water, Larvae feed by scraping the leaf tissue, leaving the papery upper layer of the leaf. Leaves that were fed upon are also left with ladder-like structures of hard fibers, Damage symptoms can be confused with other defoliating insect pests. To confirm caseworm.\nvisually inspect: first,the ladder-like leaf tissues; second, cut leaves; and third, the presence of leaf cases attached onto leaf sheaths and floating in the water."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView45"
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="200dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="12dp"
+                android:text="Preventive Measures"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.005"
+                app:layout_constraintStart_toStartOf="@+id/textView46"
+                app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="374dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="8dp"
+                android:text="Early planting reduces the incidence. Use wider spacing (30 x 20 cm) when planting. Transplan older seedlings and destroy possible remaining eggs. Drain the field and use filters to catch worms when re-irrigating after 2-3 days. Use recommended fertilizer applications, avoiding excess application. Remove weeds and weedy rice in the field and nearby areas to remove alternate hosts. Make sure that adequate potassium is used."
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView51"
+                app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="200dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="8dp"
+                android:text="What caused it?"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView52"
+                app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="365dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="The insect is most likely to be found in rice fields with standing water, in both wetland and irrigated environments. It survives on weeds and weedy rice in the field and nearby areas and infects new rice crops when the conditions are favorable. Transplanting young seedlings also favors the development of the insect. Poor preparatory cultivation and soils having deficiency in Zinc will predispose the crop to this disease. However, despite all of this, the insect is commonly found in rice fields in low populations."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView53"
+                app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
